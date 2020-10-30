@@ -1,3 +1,4 @@
+{% highlight html linenos %}
 <html>
 
 <head>
@@ -561,3 +562,4 @@
     }
 </script>
 </html>
+{% endhighlight %}
