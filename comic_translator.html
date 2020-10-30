@@ -1,0 +1,563 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>新罗翻译所4.2</title>
+
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAABVCAMAAAAL3ohVAAAAA3NCSVQICAjb4U/gAAADAFBMVEX////////3/////Pb4+fj68+fv7vD////4+fj29////////Pb4+fj29//v7vD////3/////Pb4+fj//////Pb4+fj29//5+O7y8Pb////4+fjy8Pb////3/////Pb4+fj29//y8Pb//////Pb5+O7y8PYVExv////3///4+fj5+O7y8PZHRkn4+fjv7vD////4+fj5+O7y8Pbv7vD457///////Pb4+fjy8Pbv7vD4+fjy8Pbv7vDw7+b4+fj5+O778e7v7vDw7+b////3/////Pb4+fj5+O729//68+f78e738N3y8Pb78Mb/8LX+77347tXv7vDw7+b/76X/763y79L/75z/8I337c3+75Pm6en/6J3457//55T956P/5oz/54T/6HT/5nz74bX05Kfi4t7j4OX+33v+3oPg39f93ZT+3oz/3nT+3mv/32T/31v/4U//4zv/4Sn/3kT/1pH/12//12P+1Ib/11r/1lLY1Nf+0Yb/1kv/1UL/1jr30n7w0pDt0pz+z3HY0c7+zJD40W700IX/1DD/1Sj4003hzcX/zGb/zkv50TP3zWL/zjv5zzv/y0HMzMz+xYfSzMb/zDP/zSn/ziH/zRj/zAD9w1//yBH/xiH/vnPGxsjww2j/xhn5w0npwYXnw3n5xiL/xgj/uYX+wE3/wTLOwbrqwl7+um3vwFbCwb/vwUfYvqXXv4/3vDv4wQD/vQn/vQDhunb1vRK+vLT0uifotl79twm8uavMuIb/tQDzsxP2tAbeskjxrx7bq4LgsDn2rQq0rqfEq4DhpGbOrFStqJzlphTlpB2zpIfTnlK3oGjRmGmsnonTmzKjn5DAmlbOmiLPk0qYmZzbjz6il4K2kkTZiS/CjR+qjmGzkDaeiWmdhVzNeke0gSHQdy+XfmOleznBcVOSeVp2d326ZUiebVK7YzuvUTeoRy9oVjSPSEynOyWkKyGaLCaCLCWdIhg4NjaaExGGEQ4nJSijAAGZAACMAACCAABxAAAjFA0VExsAAAAf9Gi/AAABAHRSTlMAERERERERIiIiMzMzMzNEREREVVVVVVVVZmZmd3d3d3d3iIiIiIiZmZmZmZmqqru7u7u7u8zMzMzM3d3d3e7u7u7u////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////rh/X2AAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8zMC8yMKfh/6wAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAQEUlEQVRYha2ZC1zT9frHIevoUcuT/qtTp9PVjnVMzXPsnFOZhQsQCWSAIIO5CxsbsguJzG0x8JICurGN4y64aYjuqAkU2xw4GmiJhGlSiUfTzFLzHhCCslWc5/n+fuPivV7/jzAu/njv+X2+z/N8n+8WEnIrDaO+hI4cN2bkuHHjxkyZEBp6yz+4I4147P67/vzsyIfGT0tLFyxYIl65QCCYNm38Q/c9++fQkOHDfjN35IRHX4hPy1qxoabO4/F4G51Or9dTV128QpA2dcLLU/5w92+iDh85Zmr6ihpPI/ActvJyO8jmcLlBjY01BelRM6YM/3WmDJ/8/F/+8vyhmUnVHq/LZrebjJpilUqlhE+twWyx2Nxun6+heknci9Pwwuf/dEf44c+cudIH+uXyEXOdyahVKhRSqUQkIcpVKBQqjc5kd0DU2n2Xf8ELr5z54x1wD12+fKbpi3M/9/X9/IlclSuRiMV8PpeSWAR8qUyp1OotZbY2uObKmUOHzly5fFvw8GlnDs1ixCo0713q67vEE2VxuRw2h8NOYXMoNJ/PF0HYyjxzDl7xXgyDwWCduXTfbbij1SxG1EqPZ1Ne1qW+K0tS2JSSklJTkjkgIHO4IolUqsje/kvfqbfcDQXRsxiMqudvw71nCiNmg7dcr1LwUi737UtgpyQlpSSlpqbCl5QkNptm88US3md9l7ItDvfuyrRZbzz8u9sZ8VRajdNmVOaKRSl7+o4nJtFCMokcsATNT/7+55XZWgA31qS/+cStU+LucVPS6zxmjUIi5nBSYi9/H5uUkJCAWPwY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" type="image/png" >
+    <style>
+        body * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #fffdfc;
+        }
+
+        /*顶部栏*/
+        .header {
+            font-size: 20px;
+            color: black;
+            padding: 14px 0;
+            text-align: center;
+            box-shadow: #d2d2d2 0 1px 55px 1px;
+            background-color: white;
+            z-index: 9;
+        }
+
+        /*底部浮动按钮*/
+        .floating-button {
+            border-radius: .5vmax;
+            font-size: .8vmax;
+            color: white;
+            background-color: red;
+            padding: .8vmax 1vmax;
+            position: fixed;
+            bottom: 1.1vmax;
+            left: calc(50% - 2vmax);
+            z-index: 99;
+            box-shadow: #a5a5a5 5px 5px 30px 1px;
+            transition: all .5s;
+            cursor: pointer;
+        }
+
+        .floating-button:hover {
+            background-color: rgb(230, 130, 59);
+            box-shadow: #8a8a8a 5px 5px 35px 1px;
+        }
+
+        /*回到顶部按钮*/
+        .top-button {
+            border-radius: 100px;
+            font-size: .4vmax;
+            color: white;
+            background-color: red;
+            padding: .8vmax .2vmax;
+            position: fixed;
+            bottom: 3vmax;
+            writing-mode: vertical-rl;
+            right: calc(2% + 2vmax);
+            z-index: 99;
+            box-shadow: #a5a5a5 5px 5px 30px 1px;
+            transition: all .8s;
+            cursor: pointer;
+            letter-spacing: .2vmax;
+        }
+
+        .top-button:hover {
+            background-color: rgb(230, 130, 59);
+            box-shadow: #8a8a8a 5px 5px 35px 1px;
+        }
+
+        /*中间的主体部分*/
+        .picture-viewer {
+            width: 100%;
+            top: 30px;
+            z-index: 5;
+            cursor: pointer;
+            display: flex;
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .picture-viewer p {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 60px;
+            cursor: text;
+            width: 100%;
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+        }
+
+        .picture-viewer img {
+            box-shadow: #e4c7b8 9px 9px 40px 0;
+            background-color: white;
+            cursor: default;
+        }
+
+        .picture-viewer img:last-child {
+            margin-bottom: 0;
+        }
+
+        /*留出空间，鼠标指针变为默认样式，然后才是按钮*/
+        .blank-box {
+            height: 5vmax;
+            width: 100%;
+            cursor: default;
+            background-color: transparent;
+        }
+
+        /**气泡*/
+        .bubbleTail-left {
+            position: absolute;
+            min-height: 3vmax;
+            font-size: 1.1vmax;
+            border-radius: 5px 0 5px 5px;
+            border-color: red;
+            background-color: red;
+            color: white;
+            padding: .2vmax 1vmax;
+            line-height: 1.5vmax;
+            box-shadow: #949494 -1px 5px 15px 1px;
+        }
+
+        .bubbleTail-left i {
+            color: red;
+            position: absolute;
+            border-width: 10px 10px 10px 16px;
+            border-style: solid;
+            border-color: transparent transparent transparent currentcolor;
+            left: 100%;
+            top: 0;
+        }
+
+
+
+        textarea {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            word-wrap: break-word;
+            color: white;
+            background-color: red;
+            border: none;
+            cursor: text;
+            overflow: auto;
+        }
+
+        textarea:focus {
+            outline: none !important;
+        }
+
+        /*右侧的文本框*/
+        .bubbleTail-right {
+            position: absolute;
+            min-height: 3vmax;
+            font-size: 1.1vmax;
+            border-radius: 0 5px 5px 5px;
+            border-color: red;
+            background-color: red;
+            color: white;
+            padding: .2vmax 1vmax;
+            line-height: 1.5vmax;
+            box-shadow: #949494 -1px 5px 15px 1px;
+        }
+
+        .bubbleTail-right i {
+            color: red;
+            position: absolute;
+            border-width: 10px 19px 10px 0;
+            border-style: solid;
+            border-color: transparent currentColor transparent transparent;
+            right: 100%;
+            top: 0;
+        }
+
+        i:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        新罗翻译所4.2
+    </div>
+    <div class="picture-viewer" id="picture-viewer" onclick="addText(event);">
+    </div>
+
+    <div class="floating-button" style="margin-bottom: 4vmax; display: none;">
+        <input type="file" id="files" style="display: none" onchange="fileImport(this);">
+        <input type="button" id="fileImport" value="导入文档"
+            style="background-color: transparent;color: white;border: none;"
+            onclick="document.getElementById('files').click();"></div>
+    <div class="floating-button" onclick="saveFile();">保存文档</div>
+    <div class="top-button" id="top-button" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;">
+        回到顶部</div>
+
+</body>
+<script>
+    const viewer = document.getElementById('picture-viewer');
+    let picName, i, imageWidth;
+    const topButton = document.getElementById('top-button');
+    let textCount = 0, textMap = [];
+    // 初始化時，自动加载图片
+    (function () {
+        i = 1;
+        picName = getPicName(i);
+        loadImg(picName);
+    })();
+
+
+    // 获取固定格式的图片名称
+    function getPicName(i) {
+        return (i > 9 ? '' : '0') + i + '.jpg';
+    }
+
+    // 加载图片
+    function loadImg(name) {
+        let img = document.createElement('img');
+        img.src = picName;
+        let text = document.createElement('p');
+        text.innerText = `- ${i} -`;
+        text.onclick = ev => {
+            window.event ? window.event.cancelBubble = true : ev.stopPropagation();
+        }
+        viewer.appendChild(text);
+        viewer.appendChild(img);
+        img.onerror = () => {
+            viewer.removeChild(img);
+            let div = document.createElement('div');
+            div.className = 'blank-box';
+            viewer.removeChild(text);
+            viewer.after(div);
+        };
+        img.onload = () => {
+            i++;
+            picName = getPicName(i);
+            img.onclick = (ev) => {
+                window.event ? window.event.cancelBubble = true : ev.stopPropagation();
+            }
+            imageWidth = img.width;
+            loadImg(picName);
+        };
+
+    }
+
+    // 隐藏、显示顶部按钮
+    window.onscroll = function () {
+        let winScroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        if (winScroll > 50) {
+            topButton.style.opacity = 1;
+        } else {
+            topButton.style.opacity = 0;
+        }
+    };
+
+    //保存文件
+    function saveFile() {
+        let t = '';
+        for (var item in textMap) {
+            const tmp = textMap[item];
+            // 文本框的：高度（Y坐标）， 类型（左右），  文本内容，  尺寸（宽，高）
+            let bubble = document.querySelector(`#${item}>textarea`);
+            t += tmp.position + '\t' + tmp.type + '\t' + bubble.value + '\t' + bubble.clientWidth + '\t' + bubble.clientHeight+ '\t';
+        }
+        saveAs(('data:text/plain;charset=utf-8;base64,' + base64encode(utf16to8(t))));
+
+    }
+    // 拖拽文件，导入数据
+    document.body.addEventListener("dragover", function (event) {
+        event.preventDefault();
+    }, false);
+    // 拖拽结束时触发
+    document.body.addEventListener("drop", function (event) {
+        event.preventDefault();//取消事件的默认动作
+        let fileReader = new FileReader();
+        let file = event.dataTransfer.files[0];
+        fileReader.onload = function () {
+            loadFileData(this.result);
+        }
+        fileReader.onerror = function () {
+            alert("读取失败");
+        }
+        fileReader.readAsText(file);
+    }, false);
+    // 点击就添加一个新的 文本框
+    function addText(ev) {
+        textCount++;
+        let e = ev || window.event;
+        let fullWidth = document.body.clientWidth;
+        let maxWidth = document.body.clientWidth / 2 - imageWidth;
+        let bubble = document.createElement('div');
+        bubble.style.top = e.pageY;
+        let i = document.createElement('i');
+        bubble.id = 'text' + textCount;
+
+        // 左边
+        if (e.screenX < fullWidth / 2) {
+            bubble.className = 'bubbleTail-left';
+            bubble.style.right = fullWidth / 2 + imageWidth / 2 + 20;
+            textMap[bubble.id] = {
+                type: 1,  // 左边
+                position: e.pageY
+            };
+        } else {// 右边
+            bubble.className = 'bubbleTail-right';
+            bubble.style.left = fullWidth / 2 + imageWidth / 2 + 20;
+            textMap[bubble.id] = {
+                type: 2,  // 右边
+                position: e.pageY
+            };
+        }
+
+        // 点击移除整个文本框
+        i.onclick = (ev) => {
+            let ele = ev.srcElement;
+            ele.parentNode.remove();
+            delete textMap[ele.parentNode.id];
+        }
+        let text = document.createElement('textarea');
+        // 自动换行和调整容器的高度
+        text.oninput = (ev) => {
+            let ele = ev.srcElement;
+            ele.width = '0px';
+            if (ele.scrollWidth > ele.clientWidth) {
+                ele.style.width = ele.scrollWidth;
+            }
+            ele.style.height = '0px';
+            ele.style.height = (text.scrollHeight + 'px');
+        }
+        /*text.onblur = (ev) => {
+            let ele = ev.srcElement;
+            textMap[ele.parentNode.id].value = ele.value;
+        }*/
+        text.onkeydown = ev => {
+            if (ev.keyCode == 9)
+                return
+        }
+        // 自动全选
+        text.onfocus = (ev) => { ev.srcElement.select() };
+        text.onpropertychange = (text) => {
+            text.style.posHeight = (text.scrollHeight + 'px');
+        }
+        // 统一的添加方式
+        bubble.appendChild(i);
+        bubble.appendChild(text);
+        bubble.onclick = (event) => {
+            window.event ? window.event.cancelBubble = true : e.stopPropagation();
+        };
+        viewer.appendChild(bubble);
+    }
+
+    // 保存文件所需的工具方法
+    function saveAs(Url) {
+        let filename = prompt('输入一个文件名,不需要加后缀名');
+        filename += '.txt';
+        // var filename = decodeURIComponent(location.href.substr(location.href.lastIndexOf('/') + 1));
+        // filename = filename.substr(0,filename.lastIndexOf('.'));
+        var blob = new Blob([''], { type: 'application/octet-stream' });
+        var url = webkitURL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = Url;
+        a.download = filename;
+        var e = document.createEvent('MouseEvents');
+        e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+        a.dispatchEvent(e);
+        webkitURL.revokeObjectURL(url);
+    }
+    function utf16to8(str) {
+        var out, i, len, c;
+
+        out = "";
+        len = str.length;
+        for (i = 0; i < len; i++) {
+            c = str.charCodeAt(i);
+            if ((c >= 0x0001) && (c <= 0x007F)) {
+                out += str.charAt(i);
+            } else if (c > 0x07FF) {
+                out += String.fromCharCode(0xE0 | ((c >> 12) & 0x0F));
+                out += String.fromCharCode(0x80 | ((c >> 6) & 0x3F));
+                out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+            } else {
+                out += String.fromCharCode(0xC0 | ((c >> 6) & 0x1F));
+                out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+            }
+        }
+        return out;
+    }
+    function base64encode(str) {
+        var base64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+        var base64DecodeChars = new Array(
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, -1, -1, -1, 63,
+            52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -1, -1, -1,
+            -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+            15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1,
+            -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+            41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1);
+        var out, i, len;
+        var c1, c2, c3;
+
+        len = str.length;
+        i = 0;
+        out = "";
+        while (i < len) {
+            c1 = str.charCodeAt(i++) & 0xff;
+            if (i == len) {
+                out += base64EncodeChars.charAt(c1 >> 2);
+                out += base64EncodeChars.charAt((c1 & 0x3) << 4);
+                out += "==";
+                break;
+            }
+            c2 = str.charCodeAt(i++);
+            if (i == len) {
+                out += base64EncodeChars.charAt(c1 >> 2);
+                out += base64EncodeChars.charAt(((c1 & 0x3) << 4) | ((c2 & 0xF0) >> 4));
+                out += base64EncodeChars.charAt((c2 & 0xF) << 2);
+                out += "=";
+                break;
+            }
+            c3 = str.charCodeAt(i++);
+            out += base64EncodeChars.charAt(c1 >> 2);
+            out += base64EncodeChars.charAt(((c1 & 0x3) << 4) | ((c2 & 0xF0) >> 4));
+            out += base64EncodeChars.charAt(((c2 & 0xF) << 2) | ((c3 & 0xC0) >> 6));
+            out += base64EncodeChars.charAt(c3 & 0x3F);
+        }
+        return out;
+    }
+    // 加载文本
+    function fileImport(input) {
+        //支持chrome IE10  
+        if (window.FileReader) {
+            var file = input.files[0];
+            filename = file.name.split(".")[0];
+            var reader = new FileReader();
+            reader.onload = ev => {
+                loadFileData(ev.target.result);
+            };
+            reader.readAsText(file);
+        }
+        //支持IE 7 8 9 10
+        else if (typeof window.ActiveXObject != 'undefined') {
+            var xmlDoc;
+            xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+            xmlDoc.async = false;
+            xmlDoc.load(input.value);
+            loadFileData(xmlDoc.xml);
+            // console.log(xmlDoc.xml);
+        }
+        //支持FF  
+        else if (document.implementation && document.implementation.createDocument) {
+            var xmlDoc;
+            xmlDoc = document.implementation.createDocument("", "", null);
+            xmlDoc.async = false;
+            xmlDoc.load(input.value);
+            loadFileData(xmlDoc.xml);
+            // console.log(xmlDoc.xml);
+        } else {
+            alert('error');
+        }
+    }
+    // 将数据渲染出来，存在数组中
+    function loadFileData(content) {
+        clearText();
+        let array = content.split('\t');
+        let fullWidth = document.body.clientWidth;
+        let maxWidth = document.body.clientWidth / 2 - imageWidth;
+        // 3个元素后，就是下一行
+        for (let i = 0; i < array.length; i += 5) {
+            const position = parseInt(array[i]);
+            const type = parseInt(array[i + 1]);
+            const text = array[i + 2];
+            const textWidth = parseInt(array[i+3]);
+            const textHeight=parseInt(array[i+4]);
+            if ('undefined' !== typeof text)
+                generateText(type, position, text, fullWidth, maxWidth, textWidth, textHeight);
+        }
+    }
+    // 清除所有的文本框,统计的数目归零
+    function clearText() {
+        let existTextArray = document.querySelectorAll('div[class^="bubbleTail"]');
+        if (existTextArray.length) {
+            textCount = 0;
+            textMap = [];
+            for (item of existTextArray) {
+                viewer.removeChild(item)
+            }
+        }
+    }
+    // 添加文本框到页面上
+    function generateText(type, position, content, fullWidth, maxWidth, textWidth, textHeight) {
+        textCount++;
+        let bubble = document.createElement('div');
+        bubble.style.top = position;
+        let i = document.createElement('i');
+        bubble.id = 'text' + textCount;
+
+        // 左边
+        if (type == 1) {
+            bubble.className = 'bubbleTail-left';
+            bubble.style.right = fullWidth / 2 + imageWidth / 2 + 20;
+            textMap[bubble.id] = {
+                type: 1,  // 左边
+                position: position
+            };
+        } else {// 右边
+            bubble.className = 'bubbleTail-right';
+            bubble.style.left = fullWidth / 2 + imageWidth / 2 + 20;
+            textMap[bubble.id] = {
+                type: 2,  // 右边
+                position: position
+            };
+        }
+
+        // 点击移除整个文本框
+        i.onclick = (ev) => {
+            let ele = ev.srcElement;
+            ele.parentNode.remove();
+            delete textMap[ele.parentNode.id];
+        }
+        let text = document.createElement('textarea');
+        text.value = content;
+        text.style.width = textWidth;
+        text.style.height= textHeight;
+        // 自动换行和调整容器的高度
+        text.oninput = (ev) => {
+            let ele = ev.srcElement;
+            ele.width = '0px';
+            if (ele.scrollWidth > ele.clientWidth) {
+                ele.style.width = ele.scrollWidth;
+            }
+            ele.style.height = '0px';
+            ele.style.height = (text.scrollHeight + 'px');
+        }
+        /*text.onblur = (ev) => {
+            let ele = ev.srcElement;
+            textMap[ele.parentNode.id].value = ele.value;
+        }*/
+        text.onkeydown = ev => {
+            if (ev.keyCode == 9)
+                return
+        }
+        // 自动全选
+        text.onfocus = (ev) => { ev.srcElement.select() };
+        text.onpropertychange = (text) => {
+            text.style.posHeight = (text.scrollHeight + 'px');
+        }
+        // 统一的添加方式
+        bubble.appendChild(i);
+        bubble.appendChild(text);
+        bubble.onclick = (event) => {
+            window.event ? window.event.cancelBubble = true : e.stopPropagation();
+        };
+        viewer.appendChild(bubble);
+    }
+</script>
+</html>
