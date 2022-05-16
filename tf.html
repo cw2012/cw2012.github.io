@@ -1,7 +1,7 @@
 <div>测试用例</div>
 <button type="button" onclick="init()">开启摄像头</button>
 <div id="webcam-container"></div>
-<div id="label-container"></div>
+<div id="label-container" style="border-radius: 50%;width: 50px;height: 50px;background:#c2441b;margin-top: 20px;"></div>
 <script src="tf.min.js"></script>
 <script src="teachablemachine-image.min.js"></script>
 <script type="text/javascript">
@@ -45,10 +45,16 @@
     async function predict() {
         // predict can take in an image, video or canvas html element
         const prediction = await model.predict(webcam.canvas);
-        for (let i = 0; i < maxPredictions; i++) {
+        for(item of prediction){
+            if(item.className == "correct"){
+                // #c2441b #21ca21
+                labelContainer.style.background = (item.probability > 0.8)?"#21ca21":"#c2441b";
+            }
+        }
+        /*for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
                 dict[prediction[i].className] + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
-        }
+        }*/
     }
 </script>
