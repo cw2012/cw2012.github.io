@@ -41,7 +41,7 @@
     }
 
     // run the webcam image through the image model
-    const dict = {"incorrect":"通过","correct":"未检测到目标"};
+    const dict = {"incorrect":"未检测到目标","correct":"通过"};
     async function predict() {
         // predict can take in an image, video or canvas html element
         const prediction = await model.predict(webcam.canvas);
